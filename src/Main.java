@@ -60,12 +60,12 @@ public class Main {
         }
 
 
-        int one = 1;
-        int two = 2;
-        int three = 3;
-        if (three > two && three > one) {
+        int one = 5;
+        int two = 5;
+        int three = 5;
+        if (three >= two && three >= one) {
             System.out.println("Три наибольшее число");
-        } else if (two > three && two > one) {
+        } else if (two >= three && two >= one) {
             System.out.println("Два наибольшее число");
         } else {
             System.out.println("Один наибольшее число");
